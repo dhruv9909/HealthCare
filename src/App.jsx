@@ -7,7 +7,7 @@ import Add from './components/Add'
 function App() {
 
   return (
-    <Router>
+    <Router basename='/HealthCare/'>
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
